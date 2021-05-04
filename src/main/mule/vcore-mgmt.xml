@@ -9,6 +9,6 @@ http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/htt
 	</http:listener-config>
 	<flow name="vcore-mgmtFlow" doc:id="d1d8eb67-ed37-4897-bf9f-bea9a0015913" >
 		<http:listener doc:name="Listener" doc:id="b1aef596-21ef-40e8-8ca8-e7a5cc329641" config-ref="HTTP_Listener_config" path="verify"/>
-		<set-payload value="Build and Deployment using CICD pipeline" doc:name="Set Payload" doc:id="598435bd-b94a-4f15-ba03-2371c67a2cd6" />
+		<set-payload value="Build and Deployment using CICD pipeline with version 2" doc:name="Set Payload" doc:id="598435bd-b94a-4f15-ba03-2371c67a2cd6" />
 	</flow>
 </mule>
