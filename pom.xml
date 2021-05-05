@@ -5,7 +5,7 @@
 
 	<groupId>com.mycompany</groupId>
 	<artifactId>vcore-mgmt</artifactId>
-    <version>3.0.0-SNAPSHOT</version>
+    <version>4.0.0-SNAPSHOT</version>
     <packaging>mule-application</packaging>
 
 	<name>vcore-mgmt</name>
@@ -37,6 +37,7 @@
 				<workerType>Micro</workerType>
 				<muleVersion>4.2.2</muleVersion>
 				<applicationName>vCore-optimization</applicationName>
+				<objectStoreV2>true</objectStoreV2>
 				</cloudHubDeployment>
 				</configuration>
 			</plugin>
